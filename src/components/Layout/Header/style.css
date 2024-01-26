@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Raleway, sans-serif;
+}
+.desktop-1 {
+  display: flex;
+}
+.firstStep {
+  position: relative;
+  left: 60px;
+}
+.firstImg {
+  position: absolute;
+  left: -50px;
+  top: 40px;
+}
+.some-title {
+  color: #181818;
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 0.24px;
+  text-transform: uppercase;
+}
+.some-text {
+  color: #7b7b7b;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.divInput {
+  margin-left: 70px;
+  position: static;
+}
+.input-1 {
+  width: 400px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(229, 229, 229);
+  padding-left: 15px;
+  margin: 20px 0 0 100px;
+}
+.secondImg {
+  margin-left: -30px;
+  margin-bottom: -2px;
+}
+.cart {
+  display: flex;
+  background-color: #fe5f1e;
+  width: 140px;
+  height: 50px;
+  margin-left: 150px;
+  margin-top: 15px;
+  text-align: center;
+  border-radius: 50px;
+  color: white;
+  gap: 15px;
+  padding-left: 20px;
+}
+.thirdImg {
+  padding-top: 15px;
+}
+.grid-card {
+  display: grid;
+  grid-template: repeat(1, 1fr) / repeat(2, 1fr);
+  gap: 5px;
+  justify-content: center;
+}
+.finallyImg {
+  margin-left: 400px;
+  margin-top: -275px;
+}

@@ -1,0 +1,13 @@
+.card {
+  width: 200px;
+  border-radius: 8px;
+  border: 2px solid orange;
+  box-shadow: 0 0 10px green;
+}
+.card__img {
+  overflow: hidden;
+}
+.card__img img {
+  width: 100%;
+  height: auto;
+}/*# sourceMappingURL=style.module.css.map */
